@@ -1,0 +1,3 @@
+captured_at_utc,batch_id,window_start,window_end,source,avg_power_output_mw,total_power_output_mw,avg_capacity_factor_pct,peak_power_output_mw,record_count
+2026-10-15T14:48:57.826259+00:00,1,2026-10-15 14:48:00+00:00,2026-10-15 14:49:00+00:00,Solar,8964.28,8964.28,18.09,29967.0,0
+2026-10-15T14:48:57.826259+00:00,1,2026-10-15 14:48:00+00:00,2026-10-15 14:49:00+00:00,Wind,9144.17,9144.17,18.51,33025.0,0

@@ -1,0 +1,12 @@
+############################################################################
+ EXPERIMENT 10: MACHINE LEARNING IMPLEMENTATION & FINAL SMART CITY SHOWCASE
+############################################################################
+[+] Loaded 1440 smart-city energy records from Solar + Wind inputs
+[+] Regression model: MAE=24.135 MW, R2=1.000
+[+] Risk model: Accuracy=98.89%
+[+] NoSQL lake summary rows: 16
+[+] Dashboard saved: C:\Users\prati\OneDrive\Desktop\BDA\Big-Data-Analysis\output\exp10_smart_city_dashboard.html
+[+] Summary data saved: C:\Users\prati\OneDrive\Desktop\BDA\Big-Data-Analysis\output\exp10_smart_city_summary.csv
+[+] Report saved: C:\Users\prati\OneDrive\Desktop\BDA\Big-Data-Analysis\report\exp10_smart_city_showcase_report.md
+
+[RESULT] Experiment 10 completed successfully.

@@ -1,0 +1,64 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Smart City Showcase Dashboard</title>
+      <style>
+        body { font-family: Arial, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 20px; }
+        h1 { color: #f8fafc; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-bottom: 24px; }
+        .card { background: #111827; border-radius: 12px; padding: 18px; border: 1px solid #334155; }
+        .metric { font-size: 32px; font-weight: bold; color: #38bdf8; }
+        .section { background: #111827; border-radius: 12px; padding: 18px; margin-top: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+        th, td { border-bottom: 1px solid #334155; padding: 10px; text-align: left; }
+        th { background: #1e293b; }
+        .tag { display: inline-block; background: #14532d; color: #dcfce7; padding: 5px 10px; border-radius: 999px; margin-right: 8px; font-size: 12px; }
+      </style>
+    </head>
+    <body>
+      <h1>Smart City Showcase Dashboard</h1>
+      <div class="tag">Experiment 10</div>
+      <div class="tag">ML + Data Lake + Batch + Streaming</div>
+
+      <div class="grid">
+        <div class="card">
+          <div>Average Demand</div>
+          <div class="metric">9132.81 MW</div>
+        </div>
+        <div class="card">
+          <div>Peak Demand</div>
+          <div class="metric">33131.64 MW</div>
+        </div>
+        <div class="card">
+          <div>High-Risk Share</div>
+          <div class="metric">77.8%</div>
+        </div>
+        <div class="card">
+          <div>Model Accuracy</div>
+          <div class="metric">98.9%</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>ML Model Performance</h2>
+        <p><strong>Energy Demand Forecast Model:</strong> MAE = 24.14 MW, R² = 1.000</p>
+        <p><strong>Risk Prediction Model:</strong> Accuracy = 98.9%</p>
+      </div>
+
+      <div class="section">
+        <h2>Batch + NoSQL Integration</h2>
+        <table>
+          <tr><th>City</th><th>Source</th><th>Documents</th><th>Avg Power (MW)</th></tr><tr><td>Berlin</td><td>Solar</td><td>90</td><td>9414.90</td></tr><tr><td>Berlin</td><td>Wind</td><td>90</td><td>8908.51</td></tr><tr><td>Cologne</td><td>Solar</td><td>90</td><td>8331.63</td></tr><tr><td>Cologne</td><td>Wind</td><td>90</td><td>9325.69</td></tr><tr><td>Dortmund</td><td>Solar</td><td>90</td><td>9637.10</td></tr><tr><td>Dortmund</td><td>Wind</td><td>90</td><td>8904.49</td></tr><tr><td>Frankfurt</td><td>Solar</td><td>90</td><td>8485.54</td></tr><tr><td>Frankfurt</td><td>Wind</td><td>90</td><td>9487.69</td></tr><tr><td>Hamburg</td><td>Solar</td><td>90</td><td>8961.97</td></tr><tr><td>Hamburg</td><td>Wind</td><td>90</td><td>9017.21</td></tr>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>Flow Snapshot</h2>
+        <p>Data ingestion → batch analytics → streaming metrics → ML forecasting → dashboard visualization</p>
+        <p><strong>Sources:</strong> Solar and Wind generation CSVs, MongoDB lake record export, smart city feature engineering</p>
+      </div>
+    </body>
+    </html>
+    
